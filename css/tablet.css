@@ -1,0 +1,128 @@
+#navbar{
+    flex-direction: column;
+    height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: all 0.5s ease;
+}
+#NavList{
+    flex-direction: column;
+}
+#NavList li a{
+    font-size: 25px;
+  color: #818181;
+  background-color: transparent;
+}
+#NavList li a:hover {
+    background-color: transparent;
+    color: #f1f1f1;
+}
+#openButton{
+    display: inline;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+#closebtn{
+    display: inline;
+    position: absolute;
+    z-index: 5;
+    top: 20px;
+    right: 20px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Logo */
+#logo{
+    display: inline;
+    position: absolute;
+    top:21px;
+    left: 21px;
+    height: 48px;
+}
+/* Home */
+#Home{
+    flex-direction: column;
+    margin-top: 250px;
+}
+#Home h1{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 3.5rem; 
+
+}
+#Home .content p{
+    font-size: 1.6rem;
+}
+#Home img{
+    height: 58%;
+    width:auto;
+    padding: 10px 0 0 0;;
+}
+#OurMissions{
+    padding:20px 6.25%;
+}
+#OurMissions img{
+    display: inline-block;
+    width: 34%;
+    height: auto;
+}
+
+/* Phases Of registration */
+.phasesOfRegistration{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.phasesOfRegistration img{
+    width: 58%;
+    height: auto;
+    padding: 30px 0px 5px 0px;
+}
+.phasesOfRegistration h3{
+    font-size: 1.7rem;
+    padding: 5px 0px
+}
+.phasesOfRegistration p{
+    padding: 10px 20px 20px 20px;
+    font-size: 1.2rem;
+}
+
+/* Timeline */
+.phasesOfRegistration>span{
+    top:0px;
+    left: -8.4%;
+}
+.phasesOfRegistration>span::before{
+    top: -1%;
+    left:-13px;
+}
+.phasesOfRegistration>span::after{
+    top:99%;
+    left:-13px;
+}
+.time span:nth-child(1){
+    top:-1%;
+    left: -23%;
+}
+.time span:nth-child(2){
+    top:99%;
+    left: -23%;
+}
+.Timeline::before{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 96%;
+    border-left: 2px dashed black;
+    top: 2%;
+    left: 15%;
+}

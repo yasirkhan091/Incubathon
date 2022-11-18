@@ -1,0 +1,83 @@
+#openButton span{
+    display: none;
+}
+#Home img{
+    display: none;
+}
+#Home h1{
+    font-size: 3rem;
+    text-align: left;
+    padding: 5px 5px;
+}
+#Home p{
+    text-align: left;
+}
+.content{
+    padding: 0px 5px 0px 39px;
+}
+#Home{
+    margin-top: 54px;
+}
+
+/* Our Missions */
+#OurMissions>img{
+    display: none;
+}
+#OurMissions div img{
+    display: inline-block;
+    width: 60%;
+}
+#OurMissions div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Phases of Registration */
+.Timeline::before,.phasesOfRegistration>span::after,.phasesOfRegistration>span::before,.phasesOfRegistration>span{
+    display: none;
+}
+.time span{
+    display: none;
+}
+/* .time span:nth-child(1) {
+    top: 101%;
+    left: 1%;
+}
+.time span:nth-child(2) {
+    top: 101%;
+    left: 71%;
+} */
+.phasesOfRegistration{
+    width: 77%;
+}
+.phasesOfRegistration .content{
+    padding:0px;
+}
+.phasesOfRegistration p{
+    padding: 10px;
+}
+.phasesOfRegistration img {
+    width: 81%;
+    height: auto;
+}
+/* Judging Criteria */
+#JudgingCriteria{
+    padding: 20px 6.25% 20px 6.25%;
+}
+#JudgingCriteria .contentPlusPhoto img{
+    display: none;
+}
+#JudgingCriteria .contentPlusPhoto div img{
+    display: inline-block;
+    width: 60%;
+    height: auto;
+    padding: 5px;
+}
+#JudgingCriteria .contentPlusPhoto div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
